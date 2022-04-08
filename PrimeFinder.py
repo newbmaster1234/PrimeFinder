@@ -1,6 +1,6 @@
 from multiprocessing.sharedctypes import Value
 print('\n' * 2)
-print('Welcome to PrimeFinder! It will find prime and composite numbers.\n It will state the numbers from 1 to what ever you want?')
+print('Welcome to PrimeFinder! It will find prime and composite numbers.\n It will state the numbers from 1 to what ever you want!')
 ans = int(input("\nwhat number do you want it to stop?\n>"))
 if ans <= 2:
     raise ValueError("You can\'t put 2 or lower!")
